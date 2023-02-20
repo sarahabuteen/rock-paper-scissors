@@ -1,3 +1,49 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.icons-wrapper {
+  display: grid;
+  position: relative;
+  margin: 4rem auto 0;
+  max-width: 20rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  -webkit-box-pack: center;
+  justify-content: center;
+  justify-items: center;
+  img:nth-child(3) {
+    grid-column: 1 / span 2;
+  }
+  .bg {
+    position: absolute;
+    height: 70%;
+    top: 55%;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+  .icon {
+    border-radius: 100%;
+    cursor: pointer;
+    border: 30px solid transparent;
+    transition: border ease-in-out 0.3s;
+    &:hover {
+      border: 30px solid rgba($white, 0.1);
+    }
+  }
+}
+
+.result-wrapper {
+  margin: 12rem auto 0;
+  img {
+    height: 300px;
+    width: 100%;
+  }
+  .loading {
+    height: 300px;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.1);
+  }
+}

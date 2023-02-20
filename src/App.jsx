@@ -1,17 +1,20 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './views/home';
+import { GameProvider } from './context';
+import Game from './views/game';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Home />,
+    element: <Game />,
   },
 ]);
 
 function App() {
   return (
-    <RouterProvider router={router} />
+    <GameProvider>
+      <RouterProvider router={router} />
+    </GameProvider>
   );
 }
 

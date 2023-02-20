@@ -42,6 +42,7 @@ module.exports = {
     'no-unsafe-optional-chaining': 'off',
     'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
     'react/no-unknown-property': 'off',
+    'react/jsx-no-constructed-context-values': 'off',
   },
   env: {
     browser: true,
