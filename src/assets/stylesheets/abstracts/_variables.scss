@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$main-font: 'Barlow Semi Condensed', sans-serif !default;
+
+/// Colors
+/// @type Color
+$body-bg: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%) !default;
+$white: #FFFFFF !default;
+$blue: #2A45C2 !default;
+$gray: #565468 !default;
+$white: #FFFFFF !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: '/assets/' !default;
+
