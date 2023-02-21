@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/rock-paper-scissors-using-react-ivIjklFvWG](https://your-solution-url.com)
-- Live Site URL: [https://rock-paper-scissors-chi-six.vercel.app/](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/rock-paper-scissors-using-react-ivIjklFvWG](https://www.frontendmentor.io/solutions/rock-paper-scissors-using-react-ivIjklFvWG)
+- Live Site URL: [https://rock-paper-scissors-chi-six.vercel.app/](https://rock-paper-scissors-chi-six.vercel.app/)
 
 ## My process
 
