@@ -46,4 +46,38 @@
     border-radius: 100%;
     background: rgba(0, 0, 0, 0.1);
   }
+  .card-shadow {
+    height: 300px;
+    border-radius: 100%;
+    box-shadow:  0px 0px 0px 30px rgba(255,255,255,0.05),
+    0px 0px 0px 60px rgba(255,255,255,0.02),
+    0px 0px 0px 100px rgba(255,255,255,0.02)
+  }
+}
+
+@media (max-width: 768px) {
+  .icons-wrapper {
+    .icon {
+      height: 150px;
+      border: none;
+      &:hover {
+        border: none;
+      }
+    }
+  }
+  .result-wrapper {
+    margin: 2rem auto 0;
+    img {
+      height: 150px;
+    }
+    .loading {
+      height: 150px;
+    }
+    .card-shadow {
+      height: 150px;
+    }
+    h2 {
+      font-size: 1.1rem;
+    }
+  }
 }

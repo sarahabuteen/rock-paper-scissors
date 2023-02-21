@@ -61,14 +61,14 @@ function GameResults({ pickedItem, playAgain }) {
     <section className="result-wrapper">
       <Container>
         <Row className="d-flex justify-content-center">
-          <Col md={3} className="d-flex flex-column align-items-center justify-content-center">
+          <Col md={3} xs={6} className="d-flex flex-column align-items-center justify-content-center order-md-1 order-1">
             <Item title="You Picked" item={pickedItem} winner={result?.won && isResultVisible} />
           </Col>
-          <Col md={3} className="d-flex flex-column align-items-center justify-content-center">
+          <Col md={3} xs={12} className="d-flex flex-column align-items-center justify-content-center order-md-2 order-3">
             {isResultVisible
         && <Result resultMessage={result?.message} playAgain={playAgain} />}
           </Col>
-          <Col md={3} className="d-flex flex-column align-items-center justify-content-center">
+          <Col md={3} xs={6} className="d-flex flex-column align-items-center justify-content-center order-md-3 order-2">
             {randomizedPick ? (
               <Item title="The House picked" item={randomizedPick} winner={result?.lost && isResultVisible} />
             ) : (

@@ -19,7 +19,7 @@ button:focus,
   box-shadow: none;
 }
 
-.btn-white {
+.btn-white-outline {
   background-color: transparent;
   border: 1px solid $white;
   color: $white;
@@ -30,5 +30,19 @@ button:focus,
     background-color: $white;
     border: 1px solid $white;
     color: $gray;
+  }
+}
+
+.btn-white {
+  background-color: $white;
+  border: 1px solid $white;
+  color: $gray;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  &:hover {
+    background-color: $white;
+    border: 1px solid $white;
+    color: $red;
   }
 }

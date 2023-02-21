@@ -12,7 +12,7 @@ function Footer() {
             <Col md={12} className="d-flex justify-content-end">
               <button
                 type="button"
-                className="btn btn-white text-uppercase px-4"
+                className="btn btn-white-outline text-uppercase px-4"
                 onClick={() => toggleModal(!isModalOpen)}
               >
                 Rules

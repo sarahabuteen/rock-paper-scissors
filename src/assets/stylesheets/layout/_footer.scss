@@ -7,3 +7,10 @@ footer {
   bottom: 2rem;
   right: 2rem;
 }
+
+@media (max-width: 768px) {
+  footer {
+    bottom: 1.5rem;
+    right: 0.5rem;
+  }
+}
